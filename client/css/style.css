@@ -1,0 +1,422 @@
+body {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+     overflow: hidden;
+}
+body {
+    background-color: rgba(109, 80, 105, 0.178);
+}
+.form-control {
+    font-size: 15px;
+}
+.form-control,
+.form-control:focus,
+.input-group-text {
+    border-color: #e1e1e1;
+}
+.form-control,
+.btn {
+    border-radius: 3px;
+}
+.signup-form {
+    width: 500px;
+    margin: 0 auto;
+    padding:80px 0px;
+    padding-top: 0px;
+}
+.signup-form form {
+    color: #999;
+    /* border-radius: 3px; */
+    margin-bottom: 15px;
+    background: #fff;
+    box-shadow: 2px 2px 2px 2px rgba(0.3, 0.3, 0.3, 0.3);
+    border-radius: 10px;
+    padding: 30px;
+    padding-bottom: 20px;
+}
+.signup-form h2 {
+    color: rgb(109, 80, 105);
+    font-weight: bold;
+    margin-top: 0;
+}
+.signup-form hr {
+    margin: 0 -30px 20px;
+}
+.signup-form .form-group {
+    margin-bottom: 15px;
+}
+.signup-form label {
+    font-weight: normal;
+    font-size: 15px;
+}
+.signup-form .form-control {
+    min-height: 50px;
+    box-shadow: none !important;
+}
+.signup-form .input-group-addon {
+    max-width: 42px;
+    text-align: center;
+}
+.signup-form .btn {
+    font-size: 16px;
+    font-weight: bold;
+    background: rgb(109, 80, 105) !important;
+    border: none;
+    min-width: 140px;
+}
+.signup-form .btn:hover,
+.signup-form .btn:focus {
+    background: rgb(109, 80, 105) !important;
+}
+.signup-form a {
+    color: #fff;
+    text-decoration: underline;
+}
+.signup-form a:hover {
+    text-decoration: none;
+}
+.signup-form form a {
+    color: rgb(109, 80, 105);
+    text-decoration: none;
+}
+.signup-form .fa {
+    font-size: 21px;
+}
+.signup-form .fa-paper-plane {
+    font-size: 18px;
+}
+.signup-form .fa-check {
+    color: #fff;
+    left: 17px;
+    top: 18px;
+    font-size: 7px;
+    position: absolute;
+}
+.btn-lg {
+    margin-left: 150px;
+    background-color: rgb(109, 80, 105);
+    color: white;
+    border: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    display: inline-block;
+}
+.a1:link,
+.a1:visited {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+#register {
+    margin-left: 200px;
+}
+.a1:hover,
+.a1:active {
+    color: gainsboro;
+}
+#list {
+    background-color: rgb(109, 80, 105);
+}
+#ve {
+    margin-left: 10px;
+    color: rgb(109, 80, 105);
+}
+#vehicle1 {
+    margin-left: 5px;
+    height: 18px;
+    width: 18px;
+    margin: 3px;
+}
+footer {
+    /* background-color: rgb(70, 70, 240); */
+    position: fixed;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: gray;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: rgb(70, 70, 240); */
+}
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 10px; */
+}
+.socials li {
+    margin-left: 20px;
+    font-size: 25px;
+}
+.footer-bottom {
+    /* background:rgb(11, 11, 182); */
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: grey;
+}
+svg {
+	font-family: 'Russo One', sans-serif;
+	position: absolute;
+	width: 100%; height: 100%;
+}
+svg text {
+	text-transform: uppercase;
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: rgb(109, 80, 105);
+	font-size: 45px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(72,138,20,0); stroke:  rgb(109, 80, 105);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(72,138,20,0); stroke: rgb(109, 80, 105); }
+	80%  {fill: rgba(72,138,20,0); stroke: rgb(109, 80, 105); stroke-width: 3; }
+	100% {
+		fill:  rgb(109, 80, 105); stroke: rgba(54,95,160,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+.modal-confirm {
+    color:green;
+    width: 325px;
+    font-size: 14px;
+}
+.modal-confirm .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.modal-confirm .modal-header {
+    border-bottom: none;
+    position: relative;
+}
+.modal-confirm h4 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0 -15px;
+}
+.modal-confirm .form-control,
+.modal-confirm .btn {
+    min-height: 40px;
+    border-radius: 3px;
+}
+.modal-confirm .close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: green;
+}
+.modal-confirm .modal-footer {
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.modal-confirm .icon-box {
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -70px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    z-index: 9;
+        background: green;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    .modal-confirm .icon-box i {
+        font-size: 58px;
+        position: relative;
+        top: 3px;
+    }
+    .modal-confirm.modal-dialog {
+        margin-top: 80px;
+    }
+    .modal-confirm .btn {
+        color: #fff;
+        border-radius: 4px;
+        background:  green;
+        text-decoration: none;
+        transition: all 0.4s;
+        line-height: normal;
+        border: none;
+    }
+    .modal-confirm .btn:hover,
+    .modal-confirm .btn:focus {
+        background:  rgb(109, 80, 105);
+        outline: none;
+    }
+    .trigger-btn {
+        display: inline-block;
+        margin: 100px auto;
+    }
+    .icon-button {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        color: #333333;
+        background: #dddddd;
+        border: none;
+        outline: none;
+        border-radius: 50%;
+      }
+      .icon-button:hover {
+        cursor: pointer;
+      }
+      .icon-button:active {
+        background: #cccccc;
+      }
+      .icon-button__badge {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        width: 25px;
+        height: 25px;
+        background: red;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+      }
+.modal-confirm1 {
+    color:red;
+    width: 325px;
+    font-size: 14px;
+}
+.modal-confirm1 .modal-content1 {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.modal-confirm1 .modal-header1 {
+    border-bottom: none;
+    position: relative;
+}
+.modal-confirm1 h4 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0 -15px;
+}
+.modal-confirm1 .form-control,
+.modal-confirm1 .btn {
+    min-height: 40px;
+    border-radius: 3px;
+}
+.modal-confirm1 .close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+background-color: red;
+}
+.modal-confirm1 .modal-footer1 {
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.modal-confirm1 .icon-box {
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -70px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    z-index: 9;
+        background: red;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    .modal-confirm1 .icon-box i {
+        font-size: 58px;
+        position: relative;
+        top: 3px;
+    }
+    .modal-confirm1.modal-dialog {
+        margin-top: 80px;
+    }
+    .modal-confirm1 .btn {
+        color: #fff;
+        border-radius: 4px;
+        background:  red;
+        text-decoration: none;
+        transition: all 0.4s;
+        line-height: normal;
+        border: none;
+    }
+    .modal-confirm1 .btn:hover,
+    .modal-confirm1 .btn:focus {
+        background:  red;
+        outline: none;
+    }
+    .trigger-btn1 {
+        display: inline-block;
+        margin: 100px auto;
+    }
+    .icon-button1 {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        color: #333333;
+        background: #dddddd;
+        border: none;
+        outline: none;
+        border-radius: 50%;
+      }
+      .icon-button1:hover {
+        cursor: pointer;
+      }
+      .icon-button1:active {
+        background: #cccccc;
+      }
+      .icon-button__badge1 {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        width: 25px;
+        height: 25px;
+        background: red;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+      }

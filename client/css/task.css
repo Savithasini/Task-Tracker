@@ -1,0 +1,193 @@
+body {
+    color: #2c2929;
+    font-family: 'Roboto', sans-serif;
+    margin: -5px;
+    background-color: rgba(109, 80, 105, 0.178);
+    /* -webkit-filter: hue-rotate(180deg);
+        filter: hue-rotate(180deg);
+     */
+}
+#in {
+    padding-left: 450px;
+}
+#nav {
+    background-color: rgb(109, 80, 105);
+    height: 70px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    display: inline-block;
+    padding: 20px;
+}
+#list {
+    background-color: rgb(109, 80, 105);
+}
+#ve {
+    margin-left: 10px;
+    color: rgb(109, 80, 105);
+}
+#vehicle1 {
+    margin-left: 5px;
+    height: 18px;
+    width: 18px;
+    margin: 3px;
+}
+#lab {
+    margin-top: -40px;
+    margin-right: 40px;
+    box-shadow: none;
+}
+#box {
+    /* border-radius: 4px; */
+    margin-left: 200px;
+    padding-right: 20px;
+    /* height:100px; */
+    margin-bottom: 50px;
+}
+.d-flex {
+    /* padding-left: 20px; */
+    padding-right: 20px;
+    font-size: 16px;
+    border: 2px solid black;
+    background-color: white;
+}
+.d-flex:hover {
+    /* padding-left: 20px; */
+    padding-right: 20px;
+    font-size: 16px;
+    border: 2px solid black;
+    background-color: lightblue;
+}
+#order-heading {
+    background-color: rgb(109, 80, 105);
+    position: relative;
+    border-top-left-radius: 25px;
+    /* border:2px solid black; */
+    border-top-right-radius: 25px;
+    max-width: 800px;
+    padding-top: 20px;
+    margin: 30px auto 0px;
+    color: white;
+}
+#des {
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#carding {
+    display: inline;
+}
+.modal-confirm {
+    color: #636363;
+    width: 325px;
+    font-size: 14px;
+}
+.modal-confirm .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.modal-confirm .modal-header {
+    border-bottom: none;
+    position: relative;
+}
+.modal-confirm h4 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0 -15px;
+}
+.modal-confirm .form-control,
+.modal-confirm .btn {
+    min-height: 40px;
+    border-radius: 3px;
+}
+.modal-confirm .close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color:  rgb(109, 80, 105);
+}
+.modal-confirm .modal-footer {
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.modal-confirm .icon-box {
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -70px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    z-index: 9;
+        background:  rgb(109, 80, 105);
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    .modal-confirm .icon-box i {
+        font-size: 58px;
+        position: relative;
+        top: 3px;
+    }
+    .modal-confirm.modal-dialog {
+        margin-top: 80px;
+    }
+    .modal-confirm .btn {
+        color: #fff;
+        border-radius: 4px;
+        background:  rgb(109, 80, 105);
+        text-decoration: none;
+        transition: all 0.4s;
+        line-height: normal;
+        border: none;
+    }
+    .modal-confirm .btn:hover,
+    .modal-confirm .btn:focus {
+        background:  rgb(109, 80, 105);
+        outline: none;
+    }
+    .trigger-btn {
+        display: inline-block;
+        margin: 100px auto;
+    }
+    .icon-button {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        color: #333333;
+        background: #dddddd;
+        border: none;
+        outline: none;
+        border-radius: 50%;
+      }
+      .icon-button:hover {
+        cursor: pointer;
+      }
+      .icon-button:active {
+        background: #cccccc;
+      }
+      .icon-button__badge {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        width: 25px;
+        height: 25px;
+        background: red;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+      }
