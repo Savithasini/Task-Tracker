@@ -3,4 +3,4 @@
 # steps to Excecute application: 
       1: npm install 
       2: npm start
-# Landing page: http://localhost:5000
+Landing page: http://localhost:5000
